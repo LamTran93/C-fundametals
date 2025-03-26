@@ -150,12 +150,19 @@ void FilterCarByType()
         userEnterType = Console.ReadLine();
     } while (string.IsNullOrEmpty(userEnterType));
 
-    Console.WriteLine($"Found cars:");
     var filteredCars = cars.FindAll(c => c.Type.ToString().Contains(userEnterType, StringComparison.OrdinalIgnoreCase));
-    for (int i = 0; i < filteredCars.Count; i++)
+    if (filteredCars.Count > 0)
     {
-        Console.WriteLine(filteredCars[i].ToString());
+        Console.WriteLine($"Found cars:");
+        for (int i = 0; i < filteredCars.Count; i++)
+        {
+            Console.WriteLine(filteredCars[i].ToString());
+        }
+    } else
+    {
+        Console.WriteLine("Found no car");
     }
+    
 }
 
 void RemoveCarByModel()
