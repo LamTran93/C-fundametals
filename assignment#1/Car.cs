@@ -1,3 +1,4 @@
+
 namespace Assignment
 {
     public class Car
@@ -20,6 +21,11 @@ namespace Assignment
             Type = type;
         }
         public Car() {}
+
+        public override string ToString()
+        {
+            return $"Model: {Model} - Make: {Make} - Year: {Year} - Type: {Type}";
+        }
     }
 }
 

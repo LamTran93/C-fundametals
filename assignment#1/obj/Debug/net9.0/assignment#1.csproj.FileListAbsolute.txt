@@ -12,3 +12,4 @@ D:\Project\.NET\C# fundametals\assignment#1\obj\Debug\net9.0\refint\assignment#1
 D:\Project\.NET\C# fundametals\assignment#1\obj\Debug\net9.0\assignment#1.pdb
 D:\Project\.NET\C# fundametals\assignment#1\obj\Debug\net9.0\assignment#1.genruntimeconfig.cache
 D:\Project\.NET\C# fundametals\assignment#1\obj\Debug\net9.0\ref\assignment#1.dll
+D:\Project\.NET\C# fundametals\assignment#1\obj\Debug\net9.0\assignment#1.sourcelink.json

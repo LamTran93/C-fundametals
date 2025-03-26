@@ -15,23 +15,24 @@ do
     switch (choice)
     {
         case 1:
-            var c = GetCarDetails();
-            if (c != null)
-            {
-                carCollection.Add(c);
-                Console.WriteLine("Car added successfully!");
-            }
+            AddCar();
             break;
         case 2:
             ShowCars();
             break;
         case 3:
+            SearchCarByMake();
+            break;
         case 4:
+            FilterCarByType();
+            break;
         case 5:
+            RemoveCarByModel();
+            break;
         case 6:
             return;
         default:
-            Console.WriteLine("WRong Choice");
+            Console.WriteLine("Invalid Choice");
             break;
     }
 } while (true);
@@ -40,69 +41,139 @@ int GetChoice()
 {
     Console.WriteLine("Enter your choice:");
     Console.Write("> ");
-    var choice = int.Parse(Console.ReadLine()!);
-    return choice;
+    var choice = Console.ReadLine();
+    if (!string.IsNullOrEmpty(choice) && int.TryParse(choice, out int result))
+        return result;
+    else return 0;
 }
 
-Car? GetCarDetails()
+void AddCar()
 {
     Car c = new();
-    Console.WriteLine("Enter car type (Fuel/Electric):");
-    Console.Write("> ");
-    string type = Console.ReadLine()!;
-    switch (type.ToLower())
+    do
     {
-        case "fuel":
-            c.Type = Car.CarType.Fuel;
-            break;
-        case "electric":
-            c.Type = Car.CarType.Electric;
-            break;
-        default:
-            return null;
-    }
-    Console.WriteLine("Enter Make:");
-    Console.Write("> ");
-    c.Make = Console.ReadLine();
-    Console.WriteLine("Enter Model:");
-    Console.Write("> ");
-    c.Model = Console.ReadLine();
-    Console.WriteLine("Enter Year:");
-    Console.Write("> ");
-    c.Year = int.Parse(Console.ReadLine()!);
-    return c;
+        Console.WriteLine("Enter car type (Fuel/Electric):");
+        Console.Write("> ");
+        string type = Console.ReadLine()!;
+        switch (type.ToLower())
+        {
+            case "fuel":
+                c.Type = Car.CarType.Fuel;
+                break;
+            case "electric":
+                c.Type = Car.CarType.Electric;
+                break;
+            default:
+                Console.WriteLine("Input invalid");
+                continue;
+        }
+        break;
+    } while (true);
+
+    do
+    {
+        Console.WriteLine("Enter Make:");
+        Console.Write("> ");
+        c.Make = Console.ReadLine();
+        if (string.IsNullOrEmpty(c.Make))
+        {
+            Console.WriteLine("Input invalid");
+            continue;
+        }
+        break;
+    } while (true);
+
+    do
+    {
+        Console.WriteLine("Enter Model:");
+        Console.Write("> ");
+        c.Model = Console.ReadLine();
+        if (string.IsNullOrEmpty(c.Model))
+        {
+            Console.WriteLine("Input invalid");
+            continue;
+        }
+        break;
+    } while (true);
+    do
+    {
+        Console.WriteLine("Enter Year:");
+        Console.Write("> ");
+        var year = Console.ReadLine();
+        if (string.IsNullOrEmpty(year))
+        {
+            Console.WriteLine("Input invalid");
+            continue;
+        }
+        c.Year = int.Parse(year);
+        if (c.Year < 1900 || c.Year > DateTime.Now.Year)
+        {
+            Console.WriteLine("Input invalid");
+            continue;
+        }
+        break;
+    } while (true);
+
+    carCollection.Add(c);
 }
 
 void ShowCars()
 {
-    int length = carCollection.Count;
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < carCollection.Count; i++)
     {
-        Console.WriteLine($"Car number {i + 1}");
-        ShowCar(carCollection[i]);
+        Console.WriteLine(carCollection[i].ToString());
     }
-}
-
-void ShowCar(Car c)
-{
-    Console.WriteLine($"Make: {c.Make}");
-    Console.WriteLine($"Model: {c.Model}");
-    Console.WriteLine($"Year: {c.Year}");
-    Console.WriteLine($"Type: {c.Type}");
 }
 
 void SearchCarByMake()
 {
-    Console.WriteLine("Enter Make:");
-    Console.Write("> ");
-    string make = Console.ReadLine()!;
-    var found = carCollection.FindAll(c => c.Make == make);
-    for (int i = 0; i < found.Count; i++){
-        Console.WriteLine($"Car found number {i + 1}");
-        ShowCar(found[i]);
+    string? make;
+    do
+    {
+        Console.WriteLine("Enter Make:");
+        Console.Write("> ");
+        make = Console.ReadLine();
+    } while (string.IsNullOrEmpty(make));
+    var result = carCollection.Where(c => c.Make.Equals(make, StringComparison.OrdinalIgnoreCase) || c.Make.Contains(make, StringComparison.OrdinalIgnoreCase));
+    foreach (var car in result)
+    {
+        Console.WriteLine(car.ToString());
     }
 }
 
-void FilterCarByType(){
-    
+void FilterCarByType()
+{
+    string? userEnterType;
+    do
+    {
+        Console.WriteLine("Enter type to search:");
+        userEnterType = Console.ReadLine();
+    } while (string.IsNullOrEmpty(userEnterType));
+
+    Console.WriteLine($"Found cars:");
+    var filteredCars = carCollection.FindAll(c => c.Type.ToString().Contains(userEnterType, StringComparison.OrdinalIgnoreCase));
+    for (int i = 0; i < filteredCars.Count; i++)
+    {
+        Console.WriteLine(filteredCars[i].ToString());
+    }
+}
+
+void RemoveCarByModel()
+{
+    Console.WriteLine("Enter model to remove:");
+    Console.Write("> ");
+    string model = Console.ReadLine()!;
+    if (string.IsNullOrEmpty(model))
+    {
+        Console.WriteLine("Input invalid");
+        return;
+    }
+    Car? foundCar = carCollection.Find(c => c.Model.Equals(model, StringComparison.OrdinalIgnoreCase));
+    if (foundCar == null)
+    {
+        Console.WriteLine("Model not found!");
+        return;
+    }
+    carCollection.Remove(foundCar);
+    Console.WriteLine("Remove successfully");
 }
