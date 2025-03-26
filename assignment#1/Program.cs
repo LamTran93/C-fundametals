@@ -1,6 +1,6 @@
 ﻿using Assignment;
 
-List<Car> carCollection = [];
+List<Car> cars = [];
 
 do
 {
@@ -114,14 +114,14 @@ void AddCar()
         break;
     } while (true);
 
-    carCollection.Add(c);
+    cars.Add(c);
 }
 
 void ShowCars()
 {
-    for (int i = 0; i < carCollection.Count; i++)
+    for (int i = 0; i < cars.Count; i++)
     {
-        Console.WriteLine(carCollection[i].ToString());
+        Console.WriteLine(cars[i].ToString());
     }
 }
 
@@ -134,7 +134,7 @@ void SearchCarByMake()
         Console.Write("> ");
         make = Console.ReadLine();
     } while (string.IsNullOrEmpty(make));
-    var result = carCollection.Where(c => c.Make.Equals(make, StringComparison.OrdinalIgnoreCase) || c.Make.Contains(make, StringComparison.OrdinalIgnoreCase));
+    var result = cars.Where(c => c.Make.Equals(make, StringComparison.OrdinalIgnoreCase) || c.Make.Contains(make, StringComparison.OrdinalIgnoreCase));
     foreach (var car in result)
     {
         Console.WriteLine(car.ToString());
@@ -151,7 +151,7 @@ void FilterCarByType()
     } while (string.IsNullOrEmpty(userEnterType));
 
     Console.WriteLine($"Found cars:");
-    var filteredCars = carCollection.FindAll(c => c.Type.ToString().Contains(userEnterType, StringComparison.OrdinalIgnoreCase));
+    var filteredCars = cars.FindAll(c => c.Type.ToString().Contains(userEnterType, StringComparison.OrdinalIgnoreCase));
     for (int i = 0; i < filteredCars.Count; i++)
     {
         Console.WriteLine(filteredCars[i].ToString());
@@ -168,12 +168,12 @@ void RemoveCarByModel()
         Console.WriteLine("Input invalid");
         return;
     }
-    Car? foundCar = carCollection.Find(c => c.Model.Equals(model, StringComparison.OrdinalIgnoreCase));
+    Car? foundCar = cars.Find(c => c.Model.Equals(model, StringComparison.OrdinalIgnoreCase));
     if (foundCar == null)
     {
         Console.WriteLine("Model not found!");
         return;
     }
-    carCollection.Remove(foundCar);
+    cars.Remove(foundCar);
     Console.WriteLine("Remove successfully");
 }
