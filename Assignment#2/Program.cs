@@ -10,23 +10,19 @@ CarType carType;
 
 do
 {
-    if (int.TryParse(GetInput("Car Year"), out carYear))
-    {
-        if (1886 <= carYear && DateTime.Now.Year >= carYear)
-            break;
-    }
+    if (int.TryParse(GetInput("Car Year"), out carYear)
+        && 1886 <= carYear
+        && DateTime.Now.Year >= carYear)
+        break;
     Console.WriteLine("Invalid year! Please enter a valid year between 1886 and the current year.");
 } while (true);
 
 do
 {
-    if (DateTime.TryParseExact(GetInput("Last Maintenance Day (yyyy-MM-dd))"), "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out lastMaintenanceDate))
-    {
-        if (lastMaintenanceDate <= DateTime.Now && lastMaintenanceDate.Year >= carYear)
-        {
-            break;
-        }
-    }
+    if (DateTime.TryParseExact(GetInput("Last Maintenance Day (yyyy-MM-dd))"), "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out lastMaintenanceDate)
+        && lastMaintenanceDate <= DateTime.Now
+        && lastMaintenanceDate.Year >= carYear)
+        break;
     Console.WriteLine("Invalid date format! Please enter a valid date");
 } while (true);
 
@@ -35,6 +31,11 @@ do
 {
     Console.Write("Is this a fuel car or electric car? (F/E): ");
     string? typeChar = Console.ReadLine();
+    if (string.IsNullOrEmpty(typeChar))
+    {
+        Console.WriteLine("Invalid input! Please enter 'F' for FuelCar or 'E' for ElectricCar");
+        continue;
+    }
     switch (typeChar.ToLower())
     {
         case "f":
@@ -73,12 +74,12 @@ void Ask(Car car)
         Console.WriteLine("Invalid date format! Please enter a valid date");
     } while (true);
 
-    if (car is ElectricCar electricCar) { electricCar.Charge(fuelDate); }
-    else if (car is FuelCar fuelCar) { fuelCar.Refuel(fuelDate); }
+    if (car is ElectricCar electricCar)
+        electricCar.Charge(fuelDate);
+    else if (car is FuelCar fuelCar)
+        fuelCar.Refuel(fuelDate);
 
 }
-
-
 
 string GetInput(string name)
 {
