@@ -22,7 +22,7 @@ namespace Assignment_2
         {
             _lastRefuelTime = timeOfRefuel;
             _fuelPercent = 100;
-            Console.WriteLine($"Fuel car {Model} fueled on {_lastRefuelTime:yyyy-MM-dd HH:mm}");
+            Console.WriteLine($"Fuel car {Model} refueled on {_lastRefuelTime:yyyy-MM-dd HH:mm}");
         }
     }
 }
