@@ -36,13 +36,14 @@ do
         Console.WriteLine("Invalid input! Please enter 'F' for FuelCar or 'E' for ElectricCar");
         continue;
     }
+    typeChar = typeChar.Trim(); 
     switch (typeChar.ToLower())
     {
         case "f":
-            car = new FuelCar() { Make = carMake, Model = carModel, Year = carYear, LastMaintenanceDate = lastMaintenanceDate };
+            car = new FuelCar();
             break;
         case "e":
-            car = new ElectricCar() { Make = carMake, Model = carModel, Year = carYear, LastMaintenanceDate = lastMaintenanceDate };
+            car = new ElectricCar();
             break;
         default:
             Console.WriteLine("Invalid input! Please enter 'F' for FuelCar or 'E' for ElectricCar");
@@ -51,6 +52,10 @@ do
     break;
 } while (true);
 
+car.Make = carMake;
+car.Model = carModel;
+car.Year = carYear;
+car.LastMaintenanceDate = lastMaintenanceDate;
 car.DisplayDetails();
 Ask(car);
 
@@ -58,19 +63,18 @@ void Ask(Car car)
 {
     Console.Write($"Do you want to refuel/charging(Y/N): ");
     string answer = Console.ReadLine();
+    if (string.IsNullOrEmpty(answer)) return;
+    answer = answer.Trim();
     if (!answer.Equals("Y", StringComparison.OrdinalIgnoreCase)) return;
 
     DateTime fuelDate;
 
     do
     {
-        if (DateTime.TryParseExact(GetInput("refuel/charging time (yyyy-MM-dd HH:mm)"), "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out fuelDate))
-        {
-            if (fuelDate <= DateTime.Now)
-            {
-                break;
-            }
-        }
+        if (DateTime.TryParseExact(GetInput("refuel/charging time (yyyy-MM-dd HH:mm)"), "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out fuelDate)
+            && fuelDate <= DateTime.Now)
+            break;
+
         Console.WriteLine("Invalid date format! Please enter a valid date");
     } while (true);
 
