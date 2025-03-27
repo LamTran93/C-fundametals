@@ -12,6 +12,12 @@ namespace Assignment_2
         public string? Model { get; set; }
         public int? Year { get; set; }
         public DateTime LastMaintenanceDate { get; set; }
+        public CarType Type { get; set; }
+        public enum CarType
+        {
+            Electric,
+            Fuel
+        }
 
         public Car() { }
 
@@ -21,7 +27,9 @@ namespace Assignment_2
         }
         public void DisplayDetails()
         {
-            Console.WriteLine($"Model: {Model} - Make: {Make} - Year: {Year} - Last Maintenance Date: {LastMaintenanceDate}");
+            Console.WriteLine($"Car: {Make} ({Year})");
+            Console.WriteLine($"Last Maintenance Date: {LastMaintenanceDate.ToString("yyyy-MM-dd")}");
+            Console.WriteLine($"Next Maintenance Date: {ScheduleMaintance().ToString("yyyy-MM-dd")}");
         }
     }
 }

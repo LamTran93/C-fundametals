@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\",
+  "WorkspaceRootPath": "D:\\Project\\.NET\\C# fundametals\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\assignment#2\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|solutionrelative:assignment#2\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\.net\\c# fundametals\\assignment#2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|solutionrelative:assignment#2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\assignment#2\\ichargable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|solutionrelative:assignment#2\\ichargable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\.net\\c# fundametals\\assignment#2\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|solutionrelative:assignment#2\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\assignment#2\\ifuelable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|solutionrelative:assignment#2\\ifuelable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\assignment#2\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\.net\\c# fundametals\\assignment#2\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|solutionrelative:assignment#2\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71933554-A9B5-CB56-8792-CABCF628D225}|assignment#1\\assignment#1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\assignment#1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71933554-A9B5-CB56-8792-CABCF628D225}|assignment#1\\assignment#1.csproj|solutionrelative:assignment#1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|d:\\project\\.net\\c# fundametals\\assignment#2\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677D717B-651F-4A35-AB28-3C0D89B7368C}|Assignment#2\\Assignment#2.csproj|solutionrelative:assignment#2\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1932,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 27,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuelCar.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\FuelCar.cs",
+              "RelativeDocumentMoniker": "Assignment#2\\FuelCar.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\FuelCar.cs",
+              "RelativeToolTip": "Assignment#2\\FuelCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T07:57:34.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -55,10 +72,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -94,10 +107,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -130,67 +139,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FuelCar.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\FuelCar.cs",
-              "RelativeDocumentMoniker": "Assignment#2\\FuelCar.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\FuelCar.cs",
-              "RelativeToolTip": "Assignment#2\\FuelCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Car.cs",
+              "RelativeDocumentMoniker": "Assignment#2\\Car.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Car.cs",
+              "RelativeToolTip": "Assignment#2\\Car.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T18:02:02.518Z",
+              "WhenOpened": "2025-03-27T07:56:05.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IChargable.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\IChargable.cs",
-              "RelativeDocumentMoniker": "Assignment#2\\IChargable.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\IChargable.cs",
-              "RelativeToolTip": "Assignment#2\\IChargable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Title": "ElectricCar.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\ElectricCar.cs",
+              "RelativeDocumentMoniker": "Assignment#2\\ElectricCar.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\ElectricCar.cs",
+              "RelativeToolTip": "Assignment#2\\ElectricCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T17:59:54.103Z",
+              "WhenOpened": "2025-03-27T07:54:56.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IFuelable.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\IFuelable.cs",
-              "RelativeDocumentMoniker": "Assignment#2\\IFuelable.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\IFuelable.cs",
-              "RelativeToolTip": "Assignment#2\\IFuelable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment#2\\Program.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Program.cs*",
+              "RelativeToolTip": "Assignment#2\\Program.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCgAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T17:57:54.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Car.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\Car.cs",
-              "RelativeDocumentMoniker": "Assignment#2\\Car.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\Car.cs",
-              "RelativeToolTip": "Assignment#2\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T16:21:40.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Car.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\assignment#1\\Car.cs",
-              "RelativeDocumentMoniker": "assignment#1\\Car.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\assignment#1\\Car.cs",
-              "RelativeToolTip": "assignment#1\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:17:23.637Z",
+              "WhenOpened": "2025-03-27T07:50:23.149Z",
               "EditorCaption": ""
             }
           ]

@@ -8,15 +8,21 @@ namespace Assignment_2
 {
     internal class ElectricCar : Car, IChargable
     {
-        private DateTime _lastRechargeTime;
+        private DateTime _lastChargeTime;
         private int _chargePercent;
 
-        public ElectricCar() : base() { }
+        public DateTime LastChargeTime { get => _lastChargeTime; }
+
+        public ElectricCar() : base()
+        {
+            Type = CarType.Electric;
+        }
 
         public void Charge(DateTime timeOfRefuel)
         {
-            _lastRechargeTime = timeOfRefuel;
+            _lastChargeTime = timeOfRefuel;
             _chargePercent = 100;
+            Console.WriteLine($"Electric car {Model} charged on {_lastChargeTime:yyyy-MM-dd HH:mm}");
         }
     }
 }

@@ -1,0 +1,15 @@
+D:\Project\.NET\C# fundametals\Assignment#2\bin\Debug\net8.0\Assignment#2.exe
+D:\Project\.NET\C# fundametals\Assignment#2\bin\Debug\net8.0\Assignment#2.deps.json
+D:\Project\.NET\C# fundametals\Assignment#2\bin\Debug\net8.0\Assignment#2.runtimeconfig.json
+D:\Project\.NET\C# fundametals\Assignment#2\bin\Debug\net8.0\Assignment#2.dll
+D:\Project\.NET\C# fundametals\Assignment#2\bin\Debug\net8.0\Assignment#2.pdb
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.AssemblyInfoInputs.cache
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.AssemblyInfo.cs
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.csproj.CoreCompileInputs.cache
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.sourcelink.json
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.dll
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\refint\Assignment#2.dll
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.pdb
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\Assignment#2.genruntimeconfig.cache
+D:\Project\.NET\C# fundametals\Assignment#2\obj\Debug\net8.0\ref\Assignment#2.dll
