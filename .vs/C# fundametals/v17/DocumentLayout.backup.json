@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Project\\.NET\\C# fundametals\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\.net\\c# fundametals\\asp.net-fundamental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\.net\\c# fundametals\\asp.net-fundamental\\services\\logginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\services\\logginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\middlewares\\logginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\.net\\c# fundametals\\asp.net-fundamental\\services\\interfaces\\ilogginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\services\\interfaces\\ilogginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\.net\\c# fundametals\\asp.net-fundamental\\services\\logdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\services\\logdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\.net\\c# fundametals\\asp.net-fundamental\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\.net\\c# fundametals\\asp.net-fundamental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\.net\\c# fundametals\\asp.net-fundamental\\services\\interfaces\\ilogginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\services\\interfaces\\ilogginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1932,
-          "SelectedChildIndex": 28,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,33 +134,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "log.txt",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\log.txt",
+              "RelativeDocumentMoniker": "asp.net-fundamental\\log.txt",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\log.txt",
+              "RelativeToolTip": "asp.net-fundamental\\log.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-28T07:58:16.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LogData.cs",
               "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Services\\LogData.cs",
               "RelativeDocumentMoniker": "asp.net-fundamental\\Services\\LogData.cs",
               "ToolTip": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Services\\LogData.cs",
               "RelativeToolTip": "asp.net-fundamental\\Services\\LogData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T07:07:19.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LogginService.cs",
               "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Services\\LogginService.cs",
               "RelativeDocumentMoniker": "asp.net-fundamental\\Services\\LogginService.cs",
-              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Services\\LogginService.cs",
-              "RelativeToolTip": "asp.net-fundamental\\Services\\LogginService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABSAAAAAAAAAA==",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Services\\LogginService.cs*",
+              "RelativeToolTip": "asp.net-fundamental\\Services\\LogginService.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T07:01:56.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ILogginService.cs",
               "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Services\\Interfaces\\ILogginService.cs",
               "RelativeDocumentMoniker": "asp.net-fundamental\\Services\\Interfaces\\ILogginService.cs",
@@ -169,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LogginMiddleware.cs",
               "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Middlewares\\LogginMiddleware.cs",
               "RelativeDocumentMoniker": "asp.net-fundamental\\Middlewares\\LogginMiddleware.cs",
@@ -182,12 +199,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Program.cs",
               "RelativeDocumentMoniker": "asp.net-fundamental\\Program.cs",
-              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Program.cs*",
-              "RelativeToolTip": "asp.net-fundamental\\Program.cs*",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\Program.cs",
+              "RelativeToolTip": "asp.net-fundamental\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T06:49:35.414Z",

@@ -12,23 +12,23 @@ namespace asp.net_fundamental.Middlewares
             _next = next;
         }
 
-        public async Task Invoke(HttpContext context, ILogginService<LogData> service)
+        public async Task Invoke(HttpContext context, ILogginService<LogData> logger)
         {
             try
             {
                 // Get request data
                 var request = context.Request;
-                var streamReader = new StreamReader(request.Body);
+                var bodyReader = new StreamReader(request.Body);
                 var logData = new LogData()
                 {
                     Schema = request.Scheme,
                     Host = request.Host.Host,
                     Path = request.Path.ToString(),
                     QueryString = request.QueryString.ToString(),
-                    RequestBody = await streamReader.ReadToEndAsync()
+                    RequestBody = await bodyReader.ReadToEndAsync()
                 };
-                // Log data using log service
-                service.Log(logData);
+                // Log data using logger
+                logger.Log(logData);
 
                 await _next(context);
             }

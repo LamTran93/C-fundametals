@@ -4,14 +4,14 @@ namespace asp.net_fundamental.Services
 {
     public class LogginService : ILogginService<LogData>
     {
-        private readonly string _fileName = "log.txt";
+        private readonly string _logFile = "log.txt";
         public void Log(LogData logData)
         {
             try
             {
-                if (File.Exists(_fileName))
+                if (File.Exists(_logFile))
                 {
-                    using (var writer = File.AppendText(_fileName))
+                    using (var writer = File.AppendText(_logFile))
                     {
 
                         WriteToFile(writer, logData);
@@ -19,7 +19,7 @@ namespace asp.net_fundamental.Services
                 }
                 else
                 {
-                    using (var writer = File.CreateText(_fileName))
+                    using (var writer = File.CreateText(_logFile))
                     {
                         WriteToFile(writer, logData);
                     }
