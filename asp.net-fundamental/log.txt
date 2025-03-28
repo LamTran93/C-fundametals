@@ -1,0 +1,21 @@
+Time: [28-Mar-25 3:01:56 PM]
+Schema : [https]
+Host : [localhost]
+Path : [/]
+QueryString : []
+Request Body : []
+
+Time: [28-Mar-25 3:02:24 PM]
+Schema : [https]
+Host : [localhost]
+Path : [/about.json]
+QueryString : []
+Request Body : []
+
+Time: [28-Mar-25 3:02:56 PM]
+Schema : [https]
+Host : [localhost]
+Path : [/menu]
+QueryString : [?lang=eng&age=18]
+Request Body : []
+

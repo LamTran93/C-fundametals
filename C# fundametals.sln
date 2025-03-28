@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment#1", "assignment#
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment#2", "Assignment#2\Assignment#2.csproj", "{677D717B-651F-4A35-AB28-3C0D89B7368C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp.net-fundamental", "asp.net-fundamental\asp.net-fundamental.csproj", "{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{677D717B-651F-4A35-AB28-3C0D89B7368C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{677D717B-651F-4A35-AB28-3C0D89B7368C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{677D717B-651F-4A35-AB28-3C0D89B7368C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

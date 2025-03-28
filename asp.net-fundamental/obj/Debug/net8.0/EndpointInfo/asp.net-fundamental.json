@@ -1,0 +1,9 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "asp.net-fundamental",
+    "version": "1.0"
+  },
+  "paths": { },
+  "components": { }
+}
