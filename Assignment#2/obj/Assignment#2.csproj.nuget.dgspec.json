@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Assignment#2.csproj": {}
+    "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\Assignment#2.csproj": {}
   },
   "projects": {
-    "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Assignment#2.csproj": {
+    "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\Assignment#2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Assignment#2.csproj",
+        "projectUniqueName": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\Assignment#2.csproj",
         "projectName": "Assignment#2",
-        "projectPath": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\Assignment#2.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\.NET\\C# fundametals\\Assignment#2\\obj\\",
+        "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\Assignment#2.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Assignment#2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

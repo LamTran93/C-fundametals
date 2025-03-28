@@ -19,3 +19,17 @@ Path : [/menu]
 QueryString : [?lang=eng&age=18]
 Request Body : []
 
+Time: [28-Mar-25 8:50:16 PM]
+Schema : [https]
+Host : [localhost]
+Path : [/]
+QueryString : []
+Request Body : []
+
+Time: [28-Mar-25 8:51:12 PM]
+Schema : [https]
+Host : [localhost]
+Path : [/about]
+QueryString : [?lang=en&key=12314512312]
+Request Body : []
+
