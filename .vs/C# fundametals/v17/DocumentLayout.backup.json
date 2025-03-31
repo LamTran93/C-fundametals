@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\asp.net-fundamental\\middlewares\\logginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\middlewares\\logginmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part1\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|solutionrelative:mvc-part1\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\asp.net-fundamental\\services\\logdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\services\\logdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part1\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|solutionrelative:mvc-part1\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\asp.net-fundamental\\services\\logginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\services\\logginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|solutionrelative:mvc-part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\asp.net-fundamental\\services\\interfaces\\ilogginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\services\\interfaces\\ilogginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part1\\views\\rookies\\male.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|solutionrelative:mvc-part1\\views\\rookies\\male.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\asp.net-fundamental\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part1\\views\\rookies\\fullname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|solutionrelative:mvc-part1\\views\\rookies\\fullname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\asp.net-fundamental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CAC5BBF-718B-4D37-92E9-7D0C82A991B7}|asp.net-fundamental\\asp.net-fundamental.csproj|solutionrelative:asp.net-fundamental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part1\\views\\rookies\\oldest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|solutionrelative:mvc-part1\\views\\rookies\\oldest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part1\\views\\rookies\\agefilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF28F331-0E32-499A-8A26-D0117D63C793}|mvc-part1\\mvc-part1.csproj|solutionrelative:mvc-part1\\views\\rookies\\agefilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1932,
-          "SelectedChildIndex": 28,
+          "SelectedChildIndex": 30,
           "Children": [
             {
               "$type": "Bookmark",
@@ -135,75 +139,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LogData.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Services\\LogData.cs",
-              "RelativeDocumentMoniker": "asp.net-fundamental\\Services\\LogData.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Services\\LogData.cs",
-              "RelativeToolTip": "asp.net-fundamental\\Services\\LogData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "mvc-part1\\Models\\Person.cs",
+              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Models\\Person.cs",
+              "RelativeToolTip": "mvc-part1\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:15:02.47Z"
+              "WhenOpened": "2025-03-31T19:35:47.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "log.txt",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\log.txt",
-              "RelativeDocumentMoniker": "asp.net-fundamental\\log.txt",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\log.txt",
-              "RelativeToolTip": "asp.net-fundamental\\log.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-28T08:11:11.402Z"
+              "Title": "FullName.cshtml",
+              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\FullName.cshtml",
+              "RelativeDocumentMoniker": "mvc-part1\\Views\\Rookies\\FullName.cshtml",
+              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\FullName.cshtml",
+              "RelativeToolTip": "mvc-part1\\Views\\Rookies\\FullName.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvx8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T18:57:31.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LogginService.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Services\\LogginService.cs",
-              "RelativeDocumentMoniker": "asp.net-fundamental\\Services\\LogginService.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Services\\LogginService.cs",
-              "RelativeToolTip": "asp.net-fundamental\\Services\\LogginService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:01:56.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ILogginService.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Services\\Interfaces\\ILogginService.cs",
-              "RelativeDocumentMoniker": "asp.net-fundamental\\Services\\Interfaces\\ILogginService.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Services\\Interfaces\\ILogginService.cs",
-              "RelativeToolTip": "asp.net-fundamental\\Services\\Interfaces\\ILogginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:57:32.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LogginMiddleware.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Middlewares\\LogginMiddleware.cs",
-              "RelativeDocumentMoniker": "asp.net-fundamental\\Middlewares\\LogginMiddleware.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Middlewares\\LogginMiddleware.cs",
-              "RelativeToolTip": "asp.net-fundamental\\Middlewares\\LogginMiddleware.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:51:08.959Z",
+              "DocumentIndex": 6,
+              "Title": "AgeFilter.cshtml",
+              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\AgeFilter.cshtml",
+              "RelativeDocumentMoniker": "mvc-part1\\Views\\Rookies\\AgeFilter.cshtml",
+              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\AgeFilter.cshtml",
+              "RelativeToolTip": "mvc-part1\\Views\\Rookies\\AgeFilter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T18:44:41.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Oldest.cshtml",
+              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\Oldest.cshtml",
+              "RelativeDocumentMoniker": "mvc-part1\\Views\\Rookies\\Oldest.cshtml",
+              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\Oldest.cshtml",
+              "RelativeToolTip": "mvc-part1\\Views\\Rookies\\Oldest.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T16:20:15.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Male.cshtml",
+              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\Male.cshtml",
+              "RelativeDocumentMoniker": "mvc-part1\\Views\\Rookies\\Male.cshtml",
+              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Views\\Rookies\\Male.cshtml",
+              "RelativeToolTip": "mvc-part1\\Views\\Rookies\\Male.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:12:39.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Program.cs",
-              "RelativeDocumentMoniker": "asp.net-fundamental\\Program.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\Program.cs",
-              "RelativeToolTip": "asp.net-fundamental\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Program.cs",
+              "RelativeDocumentMoniker": "mvc-part1\\Program.cs",
+              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Program.cs",
+              "RelativeToolTip": "mvc-part1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:49:35.414Z"
+              "WhenOpened": "2025-03-31T14:11:05.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RookiesController.cs",
+              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Controllers\\RookiesController.cs",
+              "RelativeDocumentMoniker": "mvc-part1\\Controllers\\RookiesController.cs",
+              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part1\\Controllers\\RookiesController.cs",
+              "RelativeToolTip": "mvc-part1\\Controllers\\RookiesController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:04:42.428Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -1,6 +1,6 @@
 ﻿namespace mvc_part1.Models
 {
-    public class PersonModel
+    public class Person
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
