@@ -2,6 +2,7 @@
 using mvc_part1.Models;
 using System.Diagnostics;
 using Business;
+using System.Text.Json;
 
 namespace mvc_part1.Controllers
 {
@@ -16,17 +17,17 @@ namespace mvc_part1.Controllers
 
         public IActionResult Male()
         {
-            return View("Persons", _service.GetAllMales());
+            return Ok(_service.GetAllMales());
         }
 
         public IActionResult Oldest()
         {
-            return View(_service.GetOldest());
+            return Ok(_service.GetOldest());
         }
 
         public IActionResult FullName()
         {
-            return View(_service.GetAllWithFullname());
+            return Ok(_service.GetAllWithFullname());
         }
 
         public IActionResult AgeFilter([FromQuery] string year, [FromQuery] string compare)
@@ -49,19 +50,19 @@ namespace mvc_part1.Controllers
         public IActionResult Equal([FromQuery] int year)
         {
             var persons = _service.GetPersonsByYear(year);
-            return View("Persons", persons);
+            return Ok(persons);
         }
 
         public IActionResult Higher([FromQuery] int year)
         {
             var persons = _service.GetPersonsByYear(year, AgeComparer.Higher);
-            return View("Persons", persons);
+            return Ok(persons);
         }
 
         public IActionResult Lower([FromQuery] int year)
         {
             var persons = _service.GetPersonsByYear(year, AgeComparer.Lower);
-            return View("Persons", persons);
+            return Ok(persons);
         }
 
         public IActionResult Excel()
