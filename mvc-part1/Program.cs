@@ -6,9 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-PersonService personHandle = new PersonService(new DataAccessObject());
-builder.Services.AddSingleton<IPersonService>(personHandle);
+builder.Services.AddSingleton<IDataAccess, DataAccessObject>();
+builder.Services.AddSingleton<IPersonService, PersonService>();
 
 var app = builder.Build();
 

@@ -33,3 +33,17 @@ D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\obj\Debug\net8.0\refint\mvc
 D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\obj\Debug\net8.0\mvc-part2.pdb
 D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\obj\Debug\net8.0\mvc-part2.genruntimeconfig.cache
 D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\obj\Debug\net8.0\ref\mvc-part2.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\ClosedXML.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\ClosedXML.Parser.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\ExcelNumberFormat.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\RBush.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\SixLabors.Fonts.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\Business.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\DataAccess.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\Business.pdb
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\bin\Debug\net8.0\DataAccess.pdb
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\obj\Debug\net8.0\mvc-part2.csproj.AssemblyReference.cache
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part2\obj\Debug\net8.0\mvc-part2.csproj.Up2Date
