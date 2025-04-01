@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "mvc-part1/1.0.0": {
         "dependencies": {
+          "Business": "1.0.0",
           "ClosedXML": "0.104.2"
         },
         "runtime": {
@@ -90,6 +91,26 @@
             "fileVersion": "8.0.1024.46610"
           }
         }
+      },
+      "Business/1.0.0": {
+        "dependencies": {
+          "ClosedXML": "0.104.2",
+          "DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "Business.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DataAccess/1.0.0": {
+        "runtime": {
+          "DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -154,6 +175,16 @@
       "sha512": "sha512-KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw==",
       "path": "system.io.packaging/8.0.1",
       "hashPath": "system.io.packaging.8.0.1.nupkg.sha512"
+    },
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

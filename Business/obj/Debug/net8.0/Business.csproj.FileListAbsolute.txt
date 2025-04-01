@@ -1,0 +1,16 @@
+D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\Business.deps.json
+D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\Business.dll
+D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\Business.pdb
+D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\DataAccess.dll
+D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\DataAccess.pdb
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.sourcelink.json
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.dll
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\refint\Business.dll
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\Business.pdb
+D:\Project\.NET\C# fundametals\Business\obj\Debug\net8.0\ref\Business.dll

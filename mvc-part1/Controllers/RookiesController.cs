@@ -1,92 +1,81 @@
-﻿using DocumentFormat.OpenXml.Spreadsheet;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using mvc_part1.Models;
 using System.Diagnostics;
-using ClosedXML.Excel;
+using Business;
 
 namespace mvc_part1.Controllers
 {
     public class RookiesController : Controller
     {
-        private readonly List<Person> _persons;
+        private readonly IPersonService _service;
 
-        public RookiesController(List<Person> persons)
+        public RookiesController(IPersonService service)
         {
-            _persons = persons;
+            _service = service;
         }
 
         public IActionResult Male()
         {
-            return View(_persons.Where(p => p.Gender == Person.GenderType.Male));
+            return View("Persons", _service.GetAllMales());
         }
 
         public IActionResult Oldest()
         {
-            return View(_persons.MinBy(p => p.Birthday));
+            return View(_service.GetOldest());
         }
 
         public IActionResult FullName()
         {
-            return View(_persons);
+            return View(_service.GetAllWithFullname());
         }
 
-        public IActionResult AgeFilter([FromQuery] string action)
+        public IActionResult AgeFilter([FromQuery] string year, [FromQuery] string compare)
         {
-            List<Person> result;
-            switch (action.ToLower())
+            if (!int.TryParse(year, out int result)) return RedirectToAction("Error", "Home");
+
+            switch (compare)
             {
-                case "over2000":
-                    result = _persons.FindAll(p => p.Birthday.Year > 2000);
-                    ViewData["Title"] = "Members who borned after 2000";
-                    break;
-                case "under2000":
-                    result = _persons.FindAll(p => p.Birthday.Year < 2000);
-                    ViewData["Title"] = "Members who borned before 2000";
-                    break;
-                case "in2000":
-                    result = _persons.FindAll(p => p.Birthday.Year == 2000);
-                    ViewData["Title"] = "Members who borned in 2000";
-                    break;
+                case "equal":
+                    return RedirectToAction("Equal", new { year = result });
+                case "higher":
+                    return RedirectToAction("Higher", new { year = result });
+                case "lower":
+                    return RedirectToAction("Lower", new { year = result });
                 default:
-                    return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+                    return RedirectToAction("Error", "Home");
             }
-            return View(result);
+        }
+
+        public IActionResult Equal([FromQuery] int year)
+        {
+            var persons = _service.GetPersonsByYear(year);
+            return View("Persons", persons);
+        }
+
+        public IActionResult Higher([FromQuery] int year)
+        {
+            var persons = _service.GetPersonsByYear(year, AgeComparer.Higher);
+            return View("Persons", persons);
+        }
+
+        public IActionResult Lower([FromQuery] int year)
+        {
+            var persons = _service.GetPersonsByYear(year, AgeComparer.Lower);
+            return View("Persons", persons);
         }
 
         public IActionResult Excel()
         {
-            
-            using (var workbook = new XLWorkbook())
+            try
             {
-                var worksheet = workbook.Worksheets.Add("Sheet1");
-
-                worksheet.Cell(2, 2).Value = "#";
-                worksheet.Cell(2, 3).Value = "First Name";
-                worksheet.Cell(2, 4).Value = "Last Name";
-                worksheet.Cell(2, 5).Value = "Gender";
-                worksheet.Cell(2, 6).Value = "Date Of Birth";
-                worksheet.Cell(2, 7).Value = "Phone Number";
-                worksheet.Cell(2, 8).Value = "Birth Place";
-                worksheet.Cell(2, 9).Value = "Is Graduated";
-
-                
-                for (var i = 0; i < _persons.Count; i++ )
-                {
-                    worksheet.Cell(i + 3, 2).Value = i + 1;
-                    worksheet.Cell(i + 3, 3).Value = _persons[i].FirstName;
-                    worksheet.Cell(i + 3, 4).Value = _persons[i].LastName;
-                    worksheet.Cell(i + 3, 5).Value = _persons[i].Gender.ToString();
-                    worksheet.Cell(i + 3, 6).Value = $"{_persons[i].Birthday}";
-                    worksheet.Cell(i + 3, 7).Value = _persons[i].PhoneNumber;
-                    worksheet.Cell(i + 3, 8).Value = _persons[i].BirthPlace;
-                    worksheet.Cell(i + 3, 9).Value = _persons[i].IsGraduated ? "Yes" : "No";
-                }
-
-                string filename = $"Persons.xlsx";
-                string filePath = Path.Combine(Directory.GetCurrentDirectory(), filename);
-                workbook.SaveAs(filePath);
+                var filePath = _service.ToExcel();
 
                 return PhysicalFile(filePath, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Error", "Home");
             }
         }
     }

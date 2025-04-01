@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("asp.net-fundamental")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64ebf17969f4477f99a7bba84bceb093b39c9b1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bfa3d74d75e9b25b9c2a6121a3d9877e5e48958")]
 [assembly: System.Reflection.AssemblyProductAttribute("asp.net-fundamental")]
 [assembly: System.Reflection.AssemblyTitleAttribute("asp.net-fundamental")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

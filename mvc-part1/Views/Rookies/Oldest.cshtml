@@ -1,6 +1,6 @@
 ﻿@model Person
 
-<h1>Male members</h1>
+<h1>Oldest Member</h1>
 <table class="table">
     <thead>
         <tr>
@@ -18,12 +18,12 @@
         {
             <tr>
                 <th scope="row">@Html.DisplayFor(item => item.FirstName)</th>
-                <th>@Html.DisplayFor(item => item.LastName)</th>
-                <th>@Html.DisplayFor(item => item.Gender)</th>
-                <th>@Html.DisplayFor(item => item.Birthday)</th>
-                <th>@Html.DisplayFor(item => item.PhoneNumber)</th>
-                <th>@Html.DisplayFor(item => item.BirthPlace)</th>
-                <th>@Html.DisplayFor(item => item.IsGraduated)</th>
+                <td>@Html.DisplayFor(item => item.LastName)</td>
+                <td>@Html.DisplayFor(item => item.Gender)</td>
+                <td>@Html.DisplayFor(item => item.Birthday)</td>
+                <td>@Html.DisplayFor(item => item.PhoneNumber)</td>
+                <td>@Html.DisplayFor(item => item.BirthPlace)</td>
+                <td>@Html.DisplayFor(item => item.IsGraduated)</td>
             </tr>
         }
         else

@@ -17,11 +17,11 @@
         {
             <tr>
                 <th scope="row">@Html.DisplayFor(modelItem => item.LastName) @Html.DisplayFor(modelItem => item.FirstName)</th>
-                <th>@Html.DisplayFor(modelItem => item.Gender)</th>
-                <th>@Html.DisplayFor(modelItem => item.Birthday)</th>
-                <th>@Html.DisplayFor(modelItem => item.PhoneNumber)</th>
-                <th>@Html.DisplayFor(modelItem => item.BirthPlace)</th>
-                <th>@Html.DisplayFor(modelItem => item.IsGraduated)</th>
+                <td>@Html.DisplayFor(modelItem => item.Gender)</td>
+                <td>@Html.DisplayFor(modelItem => item.Birthday)</td>
+                <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.BirthPlace)</td>
+                <td>@Html.DisplayFor(modelItem => item.IsGraduated)</td>
             </tr>
         }
         @if (Model.Count() == 0)
