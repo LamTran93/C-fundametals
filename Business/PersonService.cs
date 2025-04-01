@@ -12,19 +12,19 @@ namespace Business
         }
         public IEnumerable<Person> GetAllMales()
         {
-            return _data.GetAll().Where(p => p.Gender == Person.GenderType.Male);
+            return _data.ListAll().Where(p => p.Gender == Person.GenderType.Male);
         }
         public Person? GetOldest()
         {
-            return _data.GetAll().MinBy(p => p.Birthday);
+            return _data.ListAll().MinBy(p => p.Birthday);
         }
         public IEnumerable<PersonWithFullName> GetAllWithFullname()
         {
-            return _data.GetAll().Select(p => new PersonWithFullName(p));
+            return _data.ListAll().Select(p => new PersonWithFullName(p));
         }
         public IEnumerable<Person> GetPersonsByYear(int year, AgeComparer comparer = AgeComparer.Equal)
         {
-            var persons = _data.GetAll();
+            var persons = _data.ListAll();
             switch (comparer)
             {
                 case AgeComparer.Equal:
@@ -37,9 +37,10 @@ namespace Business
                     return [];
             }
         }
-        public string ToExcel()
+        public Stream ToExcel()
         {
             using var workbook = new XLWorkbook();
+            var stream = new MemoryStream();
 
             var worksheet = workbook.Worksheets.Add("Persons");
 
@@ -53,7 +54,7 @@ namespace Business
             worksheet.Cell(2, 9).Value = "Is Graduated";
 
             var count = 1;
-            foreach (var i in _data.GetAll())
+            foreach (var i in _data.ListAll())
             {
                 worksheet.Cell(count + 2, 2).Value = count;
                 worksheet.Cell(count + 2, 3).Value = i.FirstName;
@@ -66,11 +67,10 @@ namespace Business
                 count++;
             }
 
-            string filename = $"Persons.xlsx";
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), filename);
-            workbook.SaveAs(filePath);
+            workbook.SaveAs(stream);
+            stream.Seek(0, SeekOrigin.Begin);
 
-            return filePath;
+            return stream;
 
         }
         public class PersonWithFullName : Person

@@ -28,19 +28,24 @@
             ];
         }
 
-        public IEnumerable<Person> GetAll()
+        public IEnumerable<Person> ListAll()
         {
             return _values;
         }
 
-        public void Add(Person person)
+        public void Create(Person person)
         {
             _values.Add(person);
         }
 
-        public void Remove(Person person)
+        public void Delete(Person person)
         {
             _values.Remove(person);
         }
+
+        public void Update(Person person) { 
+            
+        }
+
     }
 }

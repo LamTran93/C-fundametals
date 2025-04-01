@@ -14,17 +14,17 @@ namespace mvc_part1.Controllers
 
         public IActionResult Male()
         {
-            return Ok(_service.GetAllMales());
+            return View("Persons", _service.GetAllMales());
         }
 
         public IActionResult Oldest()
         {
-            return Ok(_service.GetOldest());
+            return View(_service.GetOldest());
         }
 
         public IActionResult FullName()
         {
-            return Ok(_service.GetAllWithFullname());
+            return View(_service.GetAllWithFullname());
         }
 
         public IActionResult AgeFilter([FromQuery] string year, [FromQuery] string compare)
@@ -47,19 +47,19 @@ namespace mvc_part1.Controllers
         public IActionResult Equal([FromQuery] int year)
         {
             var persons = _service.GetPersonsByYear(year);
-            return Ok(persons);
+            return View("Persons", persons);
         }
 
         public IActionResult Higher([FromQuery] int year)
         {
             var persons = _service.GetPersonsByYear(year, AgeComparer.Higher);
-            return Ok(persons);
+            return View("Persons", persons);
         }
 
         public IActionResult Lower([FromQuery] int year)
         {
             var persons = _service.GetPersonsByYear(year, AgeComparer.Lower);
-            return Ok(persons);
+            return View("Persons", persons);
         }
 
         public IActionResult Excel()

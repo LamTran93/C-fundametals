@@ -11,6 +11,7 @@
             <th scope="col">Phone Number</th>
             <th scope="col">Birth Place</th>
             <th scope="col">Graduated</th>
+            <th scope="col">Functions</th>
         </tr>
     </thead>
     <tbody>
@@ -24,6 +25,7 @@
                 <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
                 <td>@Html.DisplayFor(modelItem => item.BirthPlace)</td>
                 <td>@Html.DisplayFor(modelItem => item.IsGraduated)</td>
+                <td><a>Edit</a><a>Delete</a></td>
             </tr>
         }
         @if (Model.Count() == 0)
