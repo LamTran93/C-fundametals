@@ -98,3 +98,5 @@ D:\Project\C#\C#fundamentals\C-fundametals\mvc-part1\bin\Debug\net8.0\Business.p
 D:\Project\C#\C#fundamentals\C-fundametals\mvc-part1\bin\Debug\net8.0\DataAccess.pdb
 D:\Project\.NET\C# fundametals\mvc-part1\bin\Debug\net8.0\Model.dll
 D:\Project\.NET\C# fundametals\mvc-part1\bin\Debug\net8.0\Model.pdb
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part1\bin\Debug\net8.0\Model.dll
+D:\Project\C#\C#fundamentals\C-fundametals\mvc-part1\bin\Debug\net8.0\Model.pdb

@@ -74,6 +74,25 @@ namespace Business
             return stream;
 
         }
-        
+
+        public ResponsePerson Create(RequestPerson person)
+        {
+            return _data.Create(person);
+        }
+
+        public ResponsePerson? Update(RequestPerson person)
+        {
+            return _data.Update(person);
+        }
+
+        public ResponsePerson? Delete(string id)
+        {
+            return _data.Delete(id);
+        }
+
+        public ResponsePerson? Get(string id)
+        {
+            return _data.Get(id);
+        }
     }
 }

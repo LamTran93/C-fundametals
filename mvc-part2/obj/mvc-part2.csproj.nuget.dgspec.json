@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\mvc-part2.csproj": {}
+    "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\mvc-part2.csproj": {}
   },
   "projects": {
-    "D:\\Project\\.NET\\C# fundametals\\Business\\Business.csproj": {
+    "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\.NET\\C# fundametals\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\Project\\.NET\\C# fundametals\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\.NET\\C# fundametals\\Business\\obj\\",
+        "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\.NET\\C# fundametals\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Project\\.NET\\C# fundametals\\DataAccess\\DataAccess.csproj"
+              "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -79,20 +79,20 @@
         }
       }
     },
-    "D:\\Project\\.NET\\C# fundametals\\DataAccess\\DataAccess.csproj": {
+    "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\.NET\\C# fundametals\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Project\\.NET\\C# fundametals\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\.NET\\C# fundametals\\DataAccess\\obj\\",
+        "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\.NET\\C# fundametals\\DTO class\\Model.csproj": {
-                "projectPath": "D:\\Project\\.NET\\C# fundametals\\DTO class\\Model.csproj"
+              "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\Model.csproj": {
+                "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\Model.csproj"
               }
             }
           }
@@ -148,20 +148,20 @@
         }
       }
     },
-    "D:\\Project\\.NET\\C# fundametals\\DTO class\\Model.csproj": {
+    "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\.NET\\C# fundametals\\DTO class\\Model.csproj",
+        "projectUniqueName": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Project\\.NET\\C# fundametals\\DTO class\\Model.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\.NET\\C# fundametals\\DTO class\\obj\\",
+        "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\Model.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -213,20 +213,20 @@
         }
       }
     },
-    "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\mvc-part2.csproj": {
+    "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\mvc-part2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\mvc-part2.csproj",
+        "projectUniqueName": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\mvc-part2.csproj",
         "projectName": "mvc-part2",
-        "projectPath": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\mvc-part2.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\obj\\",
+        "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\mvc-part2.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -241,11 +241,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\.NET\\C# fundametals\\Business\\Business.csproj": {
-                "projectPath": "D:\\Project\\.NET\\C# fundametals\\Business\\Business.csproj"
+              "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\Business.csproj": {
+                "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\Business.csproj"
               },
-              "D:\\Project\\.NET\\C# fundametals\\DTO class\\Model.csproj": {
-                "projectPath": "D:\\Project\\.NET\\C# fundametals\\DTO class\\Model.csproj"
+              "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\Model.csproj": {
+                "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\DTO class\\Model.csproj"
               }
             }
           }
@@ -265,6 +265,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

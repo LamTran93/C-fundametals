@@ -447,23 +447,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Acer\\.nuget\\packages\\": {},
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\asp.net-fundamental.csproj",
+      "projectUniqueName": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\asp.net-fundamental.csproj",
       "projectName": "asp.net-fundamental",
-      "projectPath": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\asp.net-fundamental.csproj",
-      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\.NET\\C# fundametals\\asp.net-fundamental\\obj\\",
+      "projectPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\asp.net-fundamental.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\asp.net-fundamental\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

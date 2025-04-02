@@ -32,3 +32,5 @@ D:\Project\C#\C#fundamentals\C-fundametals\Business\obj\Debug\net8.0\Business.pd
 D:\Project\C#\C#fundamentals\C-fundametals\Business\obj\Debug\net8.0\ref\Business.dll
 D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\Model.dll
 D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\Model.pdb
+D:\Project\C#\C#fundamentals\C-fundametals\Business\bin\Debug\net8.0\Model.dll
+D:\Project\C#\C#fundamentals\C-fundametals\Business\bin\Debug\net8.0\Model.pdb

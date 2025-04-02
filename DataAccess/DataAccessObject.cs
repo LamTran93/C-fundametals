@@ -1,4 +1,5 @@
 ﻿using Model;
+using System;
 
 namespace DataAccess
 {
@@ -42,20 +43,39 @@ namespace DataAccess
             return newPerson.ToResponsePerson();
         }
 
-        public bool Delete(string id)
+        public ResponsePerson? Delete(string id)
         {
             var foundPerson = _values.Where(p => p.Id.ToString().Equals(id)).FirstOrDefault();
-            if (foundPerson == null) return false;
+            if (foundPerson == null) return null;
             _values.Remove(foundPerson);
-            return true;
+            return foundPerson.ToResponsePerson();
         }
 
-        public bool Update(RequestPerson person)
+        public ResponsePerson? Update(RequestPerson person)
         {
             var foundPerson = _values.Find(p => p.Id.ToString().Equals(person.Id));
-            if (foundPerson == null) return false;
-            foundPerson = new Person(person);
-            return true;
+            if (foundPerson == null) return null;
+            foundPerson = new Person()
+            {
+                Id = foundPerson.Id,
+                FirstName =person.FirstName,
+                LastName =person.LastName,
+                Gender = person.Gender,
+                PhoneNumber = person.PhoneNumber,
+                Birthday = person.Birthday,
+                BirthPlace = person.BirthPlace,
+                IsGraduated = person.IsGraduated,
+            };
+            Delete(person.Id);
+            _values.Add(foundPerson);
+            return foundPerson.ToResponsePerson();
+        }
+
+        public ResponsePerson? Get(string id)
+        {
+            var foundPerson = _values.Find(p => p.Id.ToString().Equals(id));
+            if (foundPerson == null) return null;
+            return foundPerson.ToResponsePerson();
         }
     }
 }

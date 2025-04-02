@@ -5,8 +5,9 @@ namespace DataAccess
     public interface IDataAccess
     {
         public IEnumerable<ResponsePerson> ListAll();
+        public ResponsePerson? Get(string id);
         public ResponsePerson Create(RequestPerson person);
-        public bool Delete(string id);
-        public bool Update(RequestPerson person);
+        public ResponsePerson? Delete(string id);
+        public ResponsePerson? Update(RequestPerson person);
     }
 }

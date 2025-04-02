@@ -76,7 +76,8 @@ namespace mvc_part1.Controllers
             {
                 var excelStream = _service.ToExcel();
 
-                return File(excelStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                return File(excelStream,
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                             "persons.xlsx");
 
             }
@@ -93,11 +94,61 @@ namespace mvc_part1.Controllers
 
         public IActionResult CreatePerson([Bind] RequestPerson person)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return Ok("Loi"); 
+                var createdPerson = _service.Create(person);
+                return RedirectToAction("GetDetails", new { personId = createdPerson.Id });
             }
-            return View(person);
+            return BadRequest();
+        }
+
+        public IActionResult Edit([FromQuery]string personId)
+        {
+            var foundPerson = _service.Get(personId);
+            if (foundPerson == null) return NotFound();
+            var requestPerson = new RequestPerson {
+                Id = foundPerson.Id,
+                FirstName = foundPerson.FirstName,
+                LastName = foundPerson.LastName,
+                Gender = foundPerson.Gender,
+                Birthday = foundPerson.Birthday,
+                PhoneNumber = foundPerson.PhoneNumber,
+                BirthPlace = foundPerson.BirthPlace,
+                IsGraduated = foundPerson.IsGraduated,
+            };
+            return View("Edit", requestPerson);
+        }
+
+        public IActionResult EditPerson([Bind] RequestPerson person)
+        {
+            if (ModelState.IsValid)
+            {
+                var updated = _service.Update(person);
+                return RedirectToAction("GetDetails", new { personId = updated.Id });
+            }
+            return BadRequest();
+        }
+
+
+        public IActionResult Delete(string id)
+        {
+            var deletedPerson = _service.Delete(id);
+            if (deletedPerson != null) return RedirectToAction("DeleteConfirm", new { success = true, name = $"{deletedPerson.FirstName} {deletedPerson.LastName}" });
+            else return RedirectToAction("DeleteConfirm", new { success = false, name = $"{deletedPerson.FirstName} {deletedPerson.LastName}" });
+        }
+
+        public IActionResult DeleteConfirm([FromQuery] bool success, [FromQuery] string name)
+        {
+            if (success) ViewData["message"] = $"Member {name} deleted successfully";
+            else ViewData["success"] = $"Member {name} deleted failed";
+            return View(success);
+        }
+
+        public IActionResult GetDetails([FromQuery] string personId)
+        {
+            var foundPerson = _service.Get(personId);
+            if (foundPerson == null) return NotFound();
+            return View("PersonDetails", foundPerson);
         }
     }
 }

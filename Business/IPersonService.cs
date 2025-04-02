@@ -1,5 +1,4 @@
 ﻿using Model;
-using static Business.PersonService;
 
 namespace Business
 {
@@ -10,5 +9,9 @@ namespace Business
         public IEnumerable<ResponsePerson> GetAll();
         public Stream ToExcel();
         public IEnumerable<ResponsePerson> GetPersonsByYear(int year, AgeComparer comparer = AgeComparer.Equal);
+        public ResponsePerson Create(RequestPerson person);
+        public ResponsePerson? Update(RequestPerson person);
+        public ResponsePerson? Delete(string id);
+        public ResponsePerson? Get(string id);
     }
 }

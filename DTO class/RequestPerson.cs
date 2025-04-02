@@ -4,7 +4,8 @@ namespace Model
 {
     public class RequestPerson
     {
-        public string Id { get; set; }
+        public string? Id { get; set; }
+
         [Required(ErrorMessage = "First name is required.")]
         [StringLength(30)]
         public string FirstName { get; set; }
@@ -19,11 +20,14 @@ namespace Model
         [Required]
         public DateOnly Birthday { get; set; }
 
+        [Required]
         [StringLength(11, MinimumLength = 10)]
         public string PhoneNumber { get; set; }
 
+        [Required]
         [StringLength(120)]
         public string BirthPlace { get; set; }
+
         public bool IsGraduated { get; set; }
 
         public RequestPerson() { }
