@@ -31,5 +31,17 @@ namespace Model
         public bool IsGraduated { get; set; }
 
         public RequestPerson() { }
+
+        public RequestPerson(ResponsePerson responsePerson)
+        {
+            Id = responsePerson.Id;
+            FirstName = responsePerson.FirstName;
+            LastName = responsePerson.LastName;
+            Gender = responsePerson.Gender;
+            Birthday = responsePerson.Birthday;
+            PhoneNumber = responsePerson.PhoneNumber;
+            BirthPlace = responsePerson.BirthPlace;
+            IsGraduated = responsePerson.IsGraduated;
+        }
     }
 }

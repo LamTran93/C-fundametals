@@ -92,6 +92,7 @@ namespace mvc_part1.Controllers
             return View();
         }
 
+        [ValidateAntiForgeryToken]
         public IActionResult CreatePerson([Bind] RequestPerson person)
         {
             if (ModelState.IsValid)
@@ -106,19 +107,11 @@ namespace mvc_part1.Controllers
         {
             var foundPerson = _service.Get(personId);
             if (foundPerson == null) return NotFound();
-            var requestPerson = new RequestPerson {
-                Id = foundPerson.Id,
-                FirstName = foundPerson.FirstName,
-                LastName = foundPerson.LastName,
-                Gender = foundPerson.Gender,
-                Birthday = foundPerson.Birthday,
-                PhoneNumber = foundPerson.PhoneNumber,
-                BirthPlace = foundPerson.BirthPlace,
-                IsGraduated = foundPerson.IsGraduated,
-            };
+            var requestPerson = new RequestPerson(foundPerson);
             return View("Edit", requestPerson);
         }
 
+        [ValidateAntiForgeryToken]
         public IActionResult EditPerson([Bind] RequestPerson person)
         {
             if (ModelState.IsValid)
@@ -129,7 +122,7 @@ namespace mvc_part1.Controllers
             return BadRequest();
         }
 
-
+        [ValidateAntiForgeryToken]
         public IActionResult Delete(string id)
         {
             var deletedPerson = _service.Delete(id);
