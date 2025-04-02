@@ -1,11 +1,12 @@
-﻿namespace DataAccess
+﻿using Model;
+
+namespace DataAccess
 {
     public interface IDataAccess
     {
-        public IEnumerable<Person> ListAll();
-        public void Create(Person item);
-        public void Delete(Person item);
-        public void Update(Person item);
-
+        public IEnumerable<ResponsePerson> ListAll();
+        public ResponsePerson Create(RequestPerson person);
+        public bool Delete(string id);
+        public bool Update(RequestPerson person);
     }
 }

@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\",
+  "WorkspaceRootPath": "D:\\Project\\.NET\\C# fundametals\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part2\\views\\rookies\\persons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|solutionrelative:mvc-part2\\views\\rookies\\persons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|d:\\project\\.net\\c# fundametals\\mvc-part2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|solutionrelative:mvc-part2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\mvc-part2\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|d:\\project\\.net\\c# fundametals\\mvc-part2\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|solutionrelative:mvc-part2\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{941624E7-6A3A-49FD-A744-060B5035E107}|Business\\Business.csproj|d:\\project\\c#\\c#fundamentals\\c-fundametals\\business\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0953F403-CBFC-4D8C-85F0-AF48E85844BA}|DTO class\\Model.csproj|d:\\project\\.net\\c# fundametals\\dto class\\requestperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0953F403-CBFC-4D8C-85F0-AF48E85844BA}|DTO class\\Model.csproj|solutionrelative:dto class\\requestperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|d:\\project\\.net\\c# fundametals\\mvc-part2\\views\\rookies\\createperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|solutionrelative:mvc-part2\\views\\rookies\\createperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|d:\\project\\.net\\c# fundametals\\mvc-part2\\views\\rookies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|solutionrelative:mvc-part2\\views\\rookies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0953F403-CBFC-4D8C-85F0-AF48E85844BA}|DTO class\\Model.csproj|d:\\project\\.net\\c# fundametals\\dto class\\responseperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0953F403-CBFC-4D8C-85F0-AF48E85844BA}|DTO class\\Model.csproj|solutionrelative:dto class\\responseperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941624E7-6A3A-49FD-A744-060B5035E107}|Business\\Business.csproj|d:\\project\\.net\\c# fundametals\\business\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{941624E7-6A3A-49FD-A744-060B5035E107}|Business\\Business.csproj|solutionrelative:business\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941624E7-6A3A-49FD-A744-060B5035E107}|Business\\Business.csproj|d:\\project\\.net\\c# fundametals\\business\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941624E7-6A3A-49FD-A744-060B5035E107}|Business\\Business.csproj|solutionrelative:business\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|d:\\project\\.net\\c# fundametals\\mvc-part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE5533A-304F-48AD-B816-E92AE1478057}|mvc-part2\\mvc-part2.csproj|solutionrelative:mvc-part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +46,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1932,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "mvc-part2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "mvc-part2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:51:05.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreatePerson.cshtml",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Views\\Rookies\\CreatePerson.cshtml",
+              "RelativeDocumentMoniker": "mvc-part2\\Views\\Rookies\\CreatePerson.cshtml",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Views\\Rookies\\CreatePerson.cshtml",
+              "RelativeToolTip": "mvc-part2\\Views\\Rookies\\CreatePerson.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:43:53.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResponsePerson.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\DTO class\\ResponsePerson.cs",
+              "RelativeDocumentMoniker": "DTO class\\ResponsePerson.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\DTO class\\ResponsePerson.cs",
+              "RelativeToolTip": "DTO class\\ResponsePerson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:38:07.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPersonService.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\Business\\IPersonService.cs",
+              "RelativeDocumentMoniker": "Business\\IPersonService.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\Business\\IPersonService.cs",
+              "RelativeToolTip": "Business\\IPersonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:37:56.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonService.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\Business\\PersonService.cs",
+              "RelativeDocumentMoniker": "Business\\PersonService.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\Business\\PersonService.cs",
+              "RelativeToolTip": "Business\\PersonService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:37:46.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Views\\Rookies\\Create.cshtml",
+              "RelativeDocumentMoniker": "mvc-part2\\Views\\Rookies\\Create.cshtml",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Views\\Rookies\\Create.cshtml",
+              "RelativeToolTip": "mvc-part2\\Views\\Rookies\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T07:52:30.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RookiesController.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Controllers\\RookiesController.cs",
+              "RelativeDocumentMoniker": "mvc-part2\\Controllers\\RookiesController.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Controllers\\RookiesController.cs",
+              "RelativeToolTip": "mvc-part2\\Controllers\\RookiesController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIAwwF8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:39:07.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -47,10 +170,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -86,10 +205,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -122,41 +237,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Persons.cshtml",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\Views\\Rookies\\Persons.cshtml",
-              "RelativeDocumentMoniker": "mvc-part2\\Views\\Rookies\\Persons.cshtml",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\Views\\Rookies\\Persons.cshtml",
-              "RelativeToolTip": "mvc-part2\\Views\\Rookies\\Persons.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wBsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T18:36:51.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RookiesController.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\Controllers\\RookiesController.cs",
-              "RelativeDocumentMoniker": "mvc-part2\\Controllers\\RookiesController.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\mvc-part2\\Controllers\\RookiesController.cs",
-              "RelativeToolTip": "mvc-part2\\Controllers\\RookiesController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T17:55:53.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IPersonService.cs",
-              "DocumentMoniker": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\IPersonService.cs",
-              "RelativeDocumentMoniker": "Business\\IPersonService.cs",
-              "ToolTip": "D:\\Project\\C#\\C#fundamentals\\C-fundametals\\Business\\IPersonService.cs",
-              "RelativeToolTip": "Business\\IPersonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Title": "RequestPerson.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\DTO class\\RequestPerson.cs",
+              "RelativeDocumentMoniker": "DTO class\\RequestPerson.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\DTO class\\RequestPerson.cs",
+              "RelativeToolTip": "DTO class\\RequestPerson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T17:25:13.899Z",
+              "WhenOpened": "2025-04-02T07:55:22.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Program.cs",
+              "RelativeDocumentMoniker": "mvc-part2\\Program.cs",
+              "ToolTip": "D:\\Project\\.NET\\C# fundametals\\mvc-part2\\Program.cs",
+              "RelativeToolTip": "mvc-part2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:46:58.37Z",
               "EditorCaption": ""
             }
           ]

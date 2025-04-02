@@ -105,8 +105,19 @@
         }
       },
       "DataAccess/1.0.0": {
+        "dependencies": {
+          "Model": "1.0.0"
+        },
         "runtime": {
           "DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Model/1.0.0": {
+        "runtime": {
+          "Model.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -182,6 +193,11 @@
       "sha512": ""
     },
     "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

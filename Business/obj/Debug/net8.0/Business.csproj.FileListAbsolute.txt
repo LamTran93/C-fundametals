@@ -30,3 +30,5 @@ D:\Project\C#\C#fundamentals\C-fundametals\Business\obj\Debug\net8.0\Business.dl
 D:\Project\C#\C#fundamentals\C-fundametals\Business\obj\Debug\net8.0\refint\Business.dll
 D:\Project\C#\C#fundamentals\C-fundametals\Business\obj\Debug\net8.0\Business.pdb
 D:\Project\C#\C#fundamentals\C-fundametals\Business\obj\Debug\net8.0\ref\Business.dll
+D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\Model.dll
+D:\Project\.NET\C# fundametals\Business\bin\Debug\net8.0\Model.pdb

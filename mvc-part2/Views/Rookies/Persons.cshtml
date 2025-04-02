@@ -1,6 +1,22 @@
-﻿@model IEnumerable<Person>
+﻿@using Model
+@model IEnumerable<ResponsePerson>
 
 <h1>@ViewData["Title"]</h1>
+@if (ViewData["Title"].Equals("Full member list"))
+{
+    <form asp-controller="Rookies" asp-action="AgeFilter">
+        <p>
+            <label>Age filter: <input type="text" name="year" /></label>
+            <label>
+                Type:
+                <input type="radio" name="compare" value="equal" /><label for="equal">Equal</label>
+                <input type="radio" name="compare" value="higher" /><label for="higher">Higher</label>
+                <input type="radio" name="compare" value="lower" /><label for="lower">Lower</label>
+            </label>
+            <input type="submit" value="Filter" />
+        </p>
+    </form>
+}
 <table class="table">
     <thead>
         <tr>
@@ -25,7 +41,7 @@
                 <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
                 <td>@Html.DisplayFor(modelItem => item.BirthPlace)</td>
                 <td>@Html.DisplayFor(modelItem => item.IsGraduated)</td>
-                <td><a>Edit</a><a>Delete</a></td>
+                <td><a>Edit</a> - <a>Delete</a></td>
             </tr>
         }
         @if (Model.Count() == 0)

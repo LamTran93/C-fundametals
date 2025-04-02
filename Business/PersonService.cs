@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using ClosedXML.Excel;
+using Model;
 
 namespace Business
 {
@@ -10,19 +11,19 @@ namespace Business
         {
             _data = data;
         }
-        public IEnumerable<Person> GetAllMales()
+        public IEnumerable<ResponsePerson> GetAll()
         {
-            return _data.ListAll().Where(p => p.Gender == Person.GenderType.Male);
+            return _data.ListAll();
         }
-        public Person? GetOldest()
+        public IEnumerable<ResponsePerson> GetAllMales()
+        {
+            return _data.ListAll().Where(p => p.Gender == GenderType.Male);
+        }
+        public ResponsePerson? GetOldest()
         {
             return _data.ListAll().MinBy(p => p.Birthday);
         }
-        public IEnumerable<PersonWithFullName> GetAllWithFullname()
-        {
-            return _data.ListAll().Select(p => new PersonWithFullName(p));
-        }
-        public IEnumerable<Person> GetPersonsByYear(int year, AgeComparer comparer = AgeComparer.Equal)
+        public IEnumerable<ResponsePerson> GetPersonsByYear(int year, AgeComparer comparer = AgeComparer.Equal)
         {
             var persons = _data.ListAll();
             switch (comparer)
@@ -73,19 +74,6 @@ namespace Business
             return stream;
 
         }
-        public class PersonWithFullName : Person
-        {
-            public string FullName { get; set; }
-            public PersonWithFullName(Person person)
-            {
-                FirstName = person.FirstName;
-                LastName = person.LastName;
-                Birthday = person.Birthday;
-                BirthPlace = person.BirthPlace;
-                IsGraduated = person.IsGraduated;
-                Gender = person.Gender;
-                FullName = $"{FirstName} {LastName}";
-            }
-        }
+        
     }
 }

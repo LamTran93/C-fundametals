@@ -1,13 +1,14 @@
-﻿using static Business.PersonService;
+﻿using Model;
+using static Business.PersonService;
 
 namespace Business
 {
     public interface IPersonService
     {
-        public IEnumerable<Person> GetAllMales();
-        public Person? GetOldest();
-        public IEnumerable<PersonWithFullName> GetAllWithFullname();
+        public IEnumerable<ResponsePerson> GetAllMales();
+        public ResponsePerson? GetOldest();
+        public IEnumerable<ResponsePerson> GetAll();
         public Stream ToExcel();
-        public IEnumerable<Person> GetPersonsByYear(int year, AgeComparer comparer = AgeComparer.Equal);
+        public IEnumerable<ResponsePerson> GetPersonsByYear(int year, AgeComparer comparer = AgeComparer.Equal);
     }
 }

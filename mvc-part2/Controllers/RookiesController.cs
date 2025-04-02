@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Business;
+using Model;
 
 namespace mvc_part1.Controllers
 {
@@ -12,8 +13,15 @@ namespace mvc_part1.Controllers
             _service = service;
         }
 
+        public IActionResult FullList()
+        {
+            ViewData["Title"] = "Full member list";
+            return View("Persons", _service.GetAll());
+        }
+
         public IActionResult Male()
         {
+            ViewData["Title"] = "All males list";
             return View("Persons", _service.GetAllMales());
         }
 
@@ -24,10 +32,10 @@ namespace mvc_part1.Controllers
 
         public IActionResult FullName()
         {
-            return View(_service.GetAllWithFullname());
+            return View(_service.GetAll());
         }
 
-        public IActionResult AgeFilter([FromQuery] string year, [FromQuery] string compare)
+        public IActionResult AgeFilter([FromForm] string year, [FromForm] string compare)
         {
             if (!int.TryParse(year, out int result)) return RedirectToAction("Error", "Home");
 
@@ -76,6 +84,20 @@ namespace mvc_part1.Controllers
             {
                 return RedirectToAction("Error", "Home");
             }
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        public IActionResult CreatePerson([Bind] RequestPerson person)
+        {
+            if (!ModelState.IsValid)
+            {
+                return Ok("Loi"); 
+            }
+            return View(person);
         }
     }
 }

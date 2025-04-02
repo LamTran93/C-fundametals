@@ -14,17 +14,22 @@ namespace mvc_part1.Controllers
 
         public IActionResult Male()
         {
-            return Ok(_service.GetAllMales());
+            return View("Persons", _service.GetAllMales());
         }
 
         public IActionResult Oldest()
         {
-            return Ok(_service.GetOldest());
+            return View(_service.GetOldest());
         }
 
         public IActionResult FullName()
         {
-            return Ok(_service.GetAllWithFullname());
+            return View(_service.GetAll());
+        }
+
+        public IActionResult FullList()
+        {
+            return View("Persons", _service.GetAll());
         }
 
         public IActionResult AgeFilter([FromQuery] string year, [FromQuery] string compare)
